@@ -34,7 +34,7 @@ end
 def update_counting_hash(hash, key)
   while hash.empty? do
     hash = {
-      key => 1
+      key => 1 
     }
     return hash 
   end
